@@ -5,7 +5,7 @@ print("Conectando ao banco...")
 conexao = pymysql.connect(host='localhost' ,database='testelev',user='********', password='********', port=3306)
 print("Conectado ao banco testelev")
 url = " https://api-teste-lewe.herokuapp.com/api/basedata"
-login={"usuario":"teste","senha":"teste@Lewe123"}
+login={"usuario":"*****","senha":"*********"}
 response= requests.post(url,json=login)
 print("Conectado na API")
 dados=response.json()
