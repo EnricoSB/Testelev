@@ -1,0 +1,10 @@
+create database testelev;
+use testelev;
+
+create table vacinas(
+id int,
+"date" varchar(100),
+total_vaccinations int,
+daily_vaccinations int,
+vaccines varchar(300)
+)
