@@ -2,7 +2,7 @@ import requests
 import pymysql
 
 print("Conectando ao banco...")
-conexao = pymysql.connect(host='localhost' ,database='testelev',user='root', password='1234', port=3306)
+conexao = pymysql.connect(host='localhost' ,database='testelev',user='********', password='********', port=3306)
 print("Conectado ao banco testelev")
 url = " https://api-teste-lewe.herokuapp.com/api/basedata"
 login={"usuario":"teste","senha":"teste@Lewe123"}
